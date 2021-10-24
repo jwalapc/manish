@@ -93,7 +93,7 @@
   ol,
   ul,
   dl {
-    margin-top: 0;
+    margin-top: 10;
     margin-bottom: 1rem; }
   
   ol ol,
@@ -117,7 +117,7 @@
     font-weight: bolder; }
   
   small {
-    font-size: 80%; }
+    font-size: 90%; }
   
   sub,
   sup {
@@ -288,7 +288,7 @@
     -webkit-appearance: button; }
   
   output {
-    display: inline-block; }
+    display: inline; }
   
   summary {
     display: list-item;
