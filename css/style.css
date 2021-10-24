@@ -10,7 +10,7 @@ html, html a, body {
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -18,15 +18,19 @@ body {
   font-size: 0.5rem;
   font-family: Lato, sans-serif;
   color: #222324;
-  line-height: 1;
+
+  line-height: 1.7;
+
   background-color: #fff;
 }
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
+
+  font-weight: 410;
   font-family: Montserrat, sans-serif;
-  line-height: 1;
+  line-height: 1.3;
+
   color: #242424;
   margin-top: 0;
   margin-bottom: .5rem;
@@ -118,16 +122,16 @@ li > a {
 
 em > a:hover,
 li > a:hover {
-  color: #d23732;
+  color: #e4a6a3;
 }
 
 small {
-  color: #656565;
+  color: #e4a6a3;
 }
 
 label {
   font-size: 0.8125rem;
-  font-weight: 700;
+  font-weight: 705;
   color: #242424;
   margin-bottom: .25rem;
 }
