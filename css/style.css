@@ -1194,14 +1194,49 @@ fieldset[disabled] .s-btn {
   float: left;
 }
 
-.s-header__logo-link {
+/* .s-header__logo-link {
   display: inline-block;
   padding: 1rem 0;
+  color: crimson;
+} */
+
+/* .s-header__logo-link:focus, .s-header__logo-link:hover {
+  text-decoration: none;
+} */
+
+/* logo animation  */
+
+.s-header__logo-link{
+  color: crimson;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+
 }
 
-.s-header__logo-link:focus, .s-header__logo-link:hover {
-  text-decoration: none;
+.s-header__logo-link:after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: crimson;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
 }
+
+.s-header__logo-link:hover::after{
+  width: 100%;
+  left: 0;
+}
+
+/* logo animation ended */
 
 .s-header__logo-img-default, .s-header__logo-img-shrink {
   display: block;
