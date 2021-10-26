@@ -57,7 +57,7 @@
     line-height: 1.5;
     color: slategray;
     text-align: left;
-    background-color:white; }
+    background-color:greenyellow; }
   
   [tabindex="-1"]:focus {
     outline: 0 !important; }
@@ -362,7 +362,7 @@
   mark,
   .mark {
     padding: 0.2em;
-    background-color: #fcf8e3; }
+    background-color:#fcf8e3; }
   
   .list-unstyled {
     padding-left: 0;
