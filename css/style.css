@@ -78,7 +78,7 @@ h5 a:focus,
 h5 a:hover,
 h6 a:focus,
 h6 a:hover {
-  color: #d23732;
+  color: #179397;
   transition-duration: 200ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -152,12 +152,12 @@ p {
 
 /* Links */
 a {
-  color: #d23732;
+  color: #179397;
   text-decoration: none;
 }
 
 a:focus, a:hover {
-  color: #d23732;
+  color: #179397;
   text-decoration: none;
 }
 
@@ -1207,7 +1207,7 @@ fieldset[disabled] .s-btn {
 /* logo animation  */
 
 .s-header__logo-link{
-  color: crimson;
+  color: rgb(23, 189, 180);
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
@@ -2104,7 +2104,7 @@ fieldset[disabled] .s-btn {
   width: 1.875rem;
   height: 3rem;
   z-index: 9;
-  background: #d23732;
+  background: #179397;
   border-radius: 3.125rem;
   text-align: center;
   transition-duration: 300ms;
@@ -2130,7 +2130,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-back-to-top:hover:before {
-  color: #d23732;
+  color: #179397;
 }
 
 .s-back-to-top:focus, .s-back-to-top:hover {
