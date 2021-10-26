@@ -47,7 +47,7 @@
     -webkit-tap-highlight-color: black; }
   
   article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-    display: block; }
+    display: inline-block; }
   
   body {
     margin: 0;
@@ -57,7 +57,7 @@
     line-height: 1.5;
     color: slategray;
     text-align: left;
-    background-color:white; }
+    background-color:rgb(46, 4, 25); }
   
   [tabindex="-1"]:focus {
     outline: 0 !important; }
@@ -69,8 +69,8 @@
     overflow: visible; }
   
   h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 0.5rem; }
+    margin-top: 10;
+    margin-bottom: 0.6rem; }
   
   p {
     margin-top: 0;
