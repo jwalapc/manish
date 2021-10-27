@@ -216,11 +216,11 @@ a:focus, a:hover {
 /* Arrows
 ------------------------------ */
 .s-portfolio__arrow-v1 .cbp-nav-prev, .s-portfolio__arrow-v1 .cbp-nav-next {
-  background: #b99769;
+  background: #6eff33;
 }
 
 .s-portfolio__arrow-v1 .cbp-nav-pagination-active {
-  background: #b99769;
+  background: #3933ff;
 }
 
 /* Tab v1
