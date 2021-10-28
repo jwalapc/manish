@@ -130,3 +130,17 @@ var Global = function() {
 $(document).ready(function() {
   Global.init();
 });
+
+// Tab Event
+
+document.addEventListener('visibilitychange',
+function(){
+    if(document.visibilityState === "visible"){
+        document.title = "Manish's Portfolio";
+        $("#favicon").attr("href","prof.jpg");
+    }
+    else {
+        document.title = "Thanks for visiting";
+        $("#favicon").attr("href","prof.jpg");
+    }
+});
