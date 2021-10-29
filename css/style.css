@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, sans-serif;
   line-height: 1.3;
 
-  color: #242424;
+  color: #af43af;
   margin-top: 0;
   margin-bottom: .5rem;
 }
@@ -144,7 +144,7 @@ i {
 p {
   font-size: 0.9375rem;
   font-weight: 300;
-  color: #656565;
+  color: #043303;
   line-height: 1.6;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -170,13 +170,13 @@ a:focus {
 ------------------------------------*/
 ::selection {
   color: #fff;
-  background: #d23732;
+  background: #af43af;
   text-shadow: none;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #d23732;
+  background: #af43af;
   text-shadow: none;
 }
 
@@ -277,7 +277,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-btn--white-bg:focus, .s-btn--white-bg:hover {
-  color: #d23732;
+  color: #af43af;
   background: #fff;
 }
 
@@ -311,7 +311,7 @@ fieldset[disabled] .s-btn {
 
 .s-btn--primary-bg {
   color: #fff;
-  background: #d23732;
+  background:#af43af;
   border-width: 0.0625rem;
   border-style: solid;
   border-color: #d23732;
@@ -2167,7 +2167,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-portfolio__filter-v1-item.cbp-filter-item-active {
-  color: #d23732 !important;
+  color: #5e0652 !important;
 }
 
 .s-portfolio__filter-v1.cbp-l-filters-text {
