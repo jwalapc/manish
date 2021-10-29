@@ -10,7 +10,7 @@
     --purple: #6f42c1;
     --pink: #e83e8c;
     --red: #dc3545;
-    --orange: #fd7e14;
+    --orange: #c0895d;
     --yellow: #ffc107;
     --green: #28a745;
     --teal: #20c997;
@@ -55,7 +55,7 @@
     font-size: 2rem;
     font-weight: 450;
     line-height: 1.5;
-    color: slategray;
+    color: rgb(112, 144, 115);
     text-align: left;
     background-color:rgb(46, 4, 25); }
   
@@ -117,7 +117,7 @@
     font-weight: lighter; }
   
   small {
-    font-size: 80%; }
+    font-size: 90%; }
   
   sub,
   sup {
@@ -130,7 +130,7 @@
     bottom: -.25em; }
   
   sup {
-    top: -.5em; }
+    top: -.6em; }
   
   a {
     color: slategray;
