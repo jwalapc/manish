@@ -13,12 +13,12 @@ h5 a:focus,
 h5 a:hover,
 h6 a:focus,
 h6 a:hover {
-  color: #c54041;
+  color: #e22727;
 }
 
 em > a:hover,
 li > a:hover {
-  color: #c54041;
+  color: #c71717;
 }
 
 /* Links */
@@ -42,7 +42,7 @@ a:focus, a:hover {
 ::-webkit-selection {
   color: #fff;
   background: #c54041;
-  text-shadow: none;
+  text-shadow: 2px 2px #ff0000;
 }
 
 :active,
