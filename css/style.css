@@ -1030,7 +1030,7 @@ fieldset[disabled] .s-btn {
   .s-plan-v2__main {
     position: relative;
     z-index: 1;
-    box-shadow: 0 -1.25rem 3.125rem 0 rgba(34, 35, 36, 0.05);
+    box-shadow: 0 -1.25rem 3.125rem 0 rgba(235, 72, 123, 0.05);
     margin-top: -.4375rem;
   }
 }
@@ -1048,7 +1048,7 @@ fieldset[disabled] .s-btn {
   left: 60%;
   width: 80%;
   height: 0.0625rem;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(17, 20, 156, 0.2);
   content: " ";
   margin-top: -.03125rem;
 }
@@ -1142,9 +1142,9 @@ fieldset[disabled] .s-btn {
 ------------------------------------*/
 .s-header__navbar {
   background: transparent;
-  transition-duration: 300ms;
+  transition-duration: 350ms;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  transition-timing-function: cubic-bezier(0.6, 1, 0.7, 1);
 }
 
 /* Container
@@ -1240,9 +1240,9 @@ fieldset[disabled] .s-btn {
 
 .s-header__logo-img-default, .s-header__logo-img-shrink {
   display: block;
-  transition-duration: 300ms;
+  transition-duration: 308ms;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  transition-timing-function: cubic-bezier(0.6, 1, 0.8, 1);
 }
 
 .s-header__logo-img-default {
