@@ -10896,3 +10896,10 @@ textarea.form-control {
   font-weight: 500;
   color: #28a745;
 }
+
+.owner-of-website {
+  font-size: 1rem;
+}
+.cbp-filter-item-size {
+  font-size: 16px;
+}
