@@ -1,10 +1,53 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: yellow;
   --purple: #6f42c1;
@@ -43,16 +86,18 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
 html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: black;
+  -webkit-tap-highlight-color: rgb(16, 16, 16);
 }
 
-article,
+/* article,
 aside,
 figcaption,
 figure,
@@ -63,6 +108,62 @@ main,
 nav,
 section {
   display: inline-block;
+} */
+
+header{
+  width:100%;
+  height:80px;
+  position:fixed;
+}
+
+.navbar-nav{
+ margin-top: 8px;
+ margin-left: 8px;
+}
+
+.navbar-nav .nav-item{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.navbar-nav .nav-item .fa{
+    margin-left: 2px;
+}
+
+.heading-section{
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+    font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+element .style{
+    font-size: 40px;
+}
+
+.logo{
+  font-size: 30px;
 }
 
 body {
@@ -73,7 +174,7 @@ body {
   font-size: 2rem;
   font-weight: 450;
   line-height: 1.5;
-  color: rgb(112, 144, 115);
+  /* color: rgb(112, 144, 115); */
   text-align: left;
   background-color: rgb(46, 4, 25);
 }
@@ -124,7 +225,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 ol ol,
@@ -158,7 +259,7 @@ small {
 
 sub,
 sup {
-  position: relative;
+  /* position: relative; */
   font-size: 80%;
   line-height: 0;
   vertical-align: baseline;
@@ -703,7 +804,7 @@ pre code {
 .col-xl-12,
 .col-xl,
 .col-xl-auto {
-  position: relative;
+  /* position: relative; */
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -10691,10 +10792,10 @@ h5,
   padding-bottom: 0;
 }
 
-.heading-section {
+/* .heading-section {
   font-size: 28px;
   color: #000;
-}
+} */
 
 .img {
   background-size: cover;
@@ -10768,9 +10869,9 @@ textarea.form-control {
 
 .info-wrap h3 {
   color: #000;
-  position: relative;
+  /* position: relative; */
 }
-.info-wrap h3:after {
+/* .info-wrap h3:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -10778,7 +10879,7 @@ textarea.form-control {
   height: 3px;
   background: #d62196;
   content: "";
-}
+} */
 
 .info-wrap .dbox {
   width: 100%;
@@ -10821,7 +10922,7 @@ textarea.form-control {
   -webkit-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
   box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
-  position: relative;
+  /* position: relative; */
   margin-bottom: 20px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
