@@ -1,468 +1,669 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-    <!-- Begin Head -->
-    <head>
-        <!-- Basic -->
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Manish Shah</title>
-        
-        <!-- Web Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+<!-- Begin Head -->
 
-        <!-- Vendor Styles -->
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/themify/themify.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"/>
-        <link href="vendor/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=PT+Sans&display=swap" rel="stylesheet">
+    <style>
+        /* Style the Sticky icons on web page */
+        .stickyicon-list {
+            position: fixed;
+            top: 200px;
+            transform: translateY(-50%);
+        }
 
-        <!-- Theme Styles -->
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
-        <link href="css/global/global.css" rel="stylesheet" type="text/css"/>
+        .stickyicon-list a {
+            display: block;
+            text-align: center;
+            padding: 4px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 25px;
+        }
 
-        
-    </head>
-    <!-- End Head -->
+        /* HOver affect on sticky social media icons */
+        .stickyicon-list a:hover {
+            color: #000;
+            width: 17px;
+        }
 
-    <!-- Body -->
-    <body>
+        /* Now we have to design each icon of social media */
+        .facebook {
+            background: #3b5998;
+            color: white;
+        }
 
-        <!--========== HEADER ==========-->
-        <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
-            <!-- Navbar -->
-            <div class="s-header__navbar">
-                <div class="s-header__container">
-                    <div class="s-header__navbar-row">
-                        <div class="s-header__navbar-row-col">
-                            <!-- Logo -->
-                            <div class="s-header__logo">
-                                <a href="#" class="s-header__logo-link">
-                                   Manish Shah
-                                   
-                                </a>
-                            </div>
-                            <!-- End Logo -->
-                        </div>
-                        <div class="s-header__navbar-row-col">
-                            <!-- Trigger -->
-                            <a href="javascript:void(0);" class="s-header__trigger js__trigger">
-                                <span class="s-header__trigger-icon"></span>
-                                <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
-                                    <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
-                                </svg>
+        .twitter {
+            color: white;
+            background: #00acee;
+        }
+
+        .linkedin {
+            background: #0e76a8;
+            color: white;
+        }
+
+        .google {
+            color: white;
+            background: #db4a39;
+        }
+
+        .instagram {
+            background: #b4035c;
+            color: white;
+        }
+
+        .youtube {
+            color: white;
+            background: #c4302b;
+        }
+    </style>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link id='favicon' rel="shortcut icon" href="img/970x647/prof.jpg" type="image/x-png">
+    <title>PORTFOLIO</title>
+
+    <!-- Web Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+
+    <!-- Vendor Styles -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/themify/themify.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Theme Styles -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/global/global.css" rel="stylesheet" type="text/css" />
+    <link href="style2.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<!-- End Head -->
+
+<!-- Body -->
+
+<body>
+
+    <!--========== HEADER ==========-->
+    <header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
+        <!-- Navbar -->
+        <div class="s-header__navbar">
+            <div class="s-header__container">
+                <div class="s-header__navbar-row">
+                    <div class="s-header__navbar-row-col">
+                        <!-- Logo -->
+                        <div class="s-header__logo">
+                            <a href="https://www.instagram.com/manish.ah_/" class="s-header__logo-link">
+                                <b>
+                                    <p 
+                                        style="size: 20px; color: #41bcc5; font-family:Georgia, 'Times New Roman', Times, serif;">
+                                        Manish Shah</p>
+                                </b>
                             </a>
-                            <!-- End Trigger -->
                         </div>
+                        <!-- End Logo -->
+                    </div>
+                    <div class="s-header__navbar-row-col">
+                        <!-- Trigger -->
+                        <a href="javascript:void(0);" class="s-header__trigger js__trigger">
+                            <span class="s-header__trigger-icon"></span>
+                            <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
+                                <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25"
+                                    stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+                            </svg>
+                        </a>
+                        <!-- End Trigger -->
                     </div>
                 </div>
             </div>
-            <!-- End Navbar -->
+        </div>
+        <!-- End Navbar -->
 
-            <!-- Overlay -->
-            <div class="s-header-bg-overlay js__bg-overlay">
-                <!-- Nav -->
-                <nav class="s-header__nav js__scrollbar">
-                    <div class="container-fluid">
-                        <!-- Menu List -->                                
-                       
+        <!-- Overlay -->
+        <div class="s-header-bg-overlay js__bg-overlay">
+            <!-- Nav -->
+            <nav class="s-header__nav js__scrollbar">
+                <div class="container-fluid">
+                    <!-- Menu List -->
 
-                        <!-- Menu List -->                                
-                        <ul class="list-unstyled s-header__nav-menu">
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="https://www.instagram.com/manish.ah_/">About</a></li>
-                           
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="https://www.instagram.com/manish.ah_/">Contacts</a></li>
-                        </ul>
-                        <!-- End Menu List -->
+
+                    <!-- Menu List -->
+                    <ul class="list-unstyled s-header__nav-menu">
+                        <li class="s-header__nav-menu-item"><a
+                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                                href="index.html">Home</a></li>
+                        <li class="s-header__nav-menu-item"><a
+                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                                href="https://www.instagram.com/manish.ah_/">About</a></li>
+
+                        <li class="s-header__nav-menu-item"><a
+                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                                href="contact.html">Contacts</a></li>
+
+                    </ul>
+                    <!-- End Menu List -->
+                </div>
+            </nav>
+            <!-- End Nav -->
+
+
+            <!-- Action -->
+            <ul class="list-inline s-header__action s-header__action--rb">
+
+                <li class="s-header__action-item">
+                    <a class="s-header__action-link" href="https://www.instagram.com/manish.ah_/">
+                        <i class="g-padding-r-5--xs ti-instagram"></i>
+                        <span class="g-display-none--xs g-display-inline-block--sm">Instagram</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- End Action -->
+        </div>
+        <!-- End Overlay -->
+    </header>
+    <!--========== END HEADER ==========-->
+
+    <!--========== SWIPER SLIDER ==========-->
+    <div class="s-swiper js__swiper-one-item">
+        <!-- Swiper Wrapper -->
+        <div class="swiper-wrapper">
+            <div class="g-fullheight--xs g-bg-position--center swiper-slide"
+                style="background: url('img/1920x1080/02.jpg');">
+                <div class="container g-text-center--xs g-ver-center--xs">
+                    <div class="g-margin-b-30--xs">
+                        <h1 style="font-family: 'Lato', sans-serif;
+                        font-family: 'PT Sans', sans-serif;"
+                            class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Animation is
+                            your Imagination.</h1>
                     </div>
-                </nav>
-                <!-- End Nav -->
-               
-
-                <!-- Action -->
-                <ul class="list-inline s-header__action s-header__action--rb">
-                    
-                    <li class="s-header__action-item">
-                        <a class="s-header__action-link" href="https://www.instagram.com/manish.ah_/">
-                            <i class="g-padding-r-5--xs ti-instagram"></i>
-                            <span class="g-display-none--xs g-display-inline-block--sm">Instagram</span>
-                        </a>
-                    </li>
-                </ul>
-                <!-- End Action -->
+                    <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=EsZ6-UHTk10" title=" Video">
+                        <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
+                    </a>
+                </div>
             </div>
-            <!-- End Overlay -->
-        </header>
-        <!--========== END HEADER ==========-->
-
-        <!--========== SWIPER SLIDER ==========-->
-        <div class="s-swiper js__swiper-one-item">
-            <!-- Swiper Wrapper -->
-            <div class="swiper-wrapper">
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/1920x1080/02.jpg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
+            <div class="g-fullheight--xs g-bg-position--center swiper-slide"
+                style="background: url('img/1920x1080/01.jpg');">
+                <div class="container g-text-center--xs g-ver-center--xs">
+                    <div class="g-margin-b-30--xs">
                         <div class="g-margin-b-30--xs">
-                            <h1 style="font-family:'Times New Roman', Times, serif;"   class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Animation is your Imagination.</h1>
+                            <h2 style="font-family: 'Lato', sans-serif;
+                            font-family: 'PT Sans', sans-serif;"
+                                class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">We Craft
+                                An
+                                Experience That Helps Brands<br>Stand Out</h2>
                         </div>
-                        <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=EsZ6-UHTk10" title="Intro Video">
+                        <br>
+                        <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=EsZ6-UHTk10"
+                            title="Intro Video">
                             <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
                         </a>
                     </div>
                 </div>
-                <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/1920x1080/01.jpg');">
-                    <div class="container g-text-center--xs g-ver-center--xs">
-                        <div class="g-margin-b-30--xs">
-                            <div class="g-margin-b-30--xs">
-                                <h2 style="font-family:'Times New Roman', Times, serif;" class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">We Craft Experience<br>That Help Brands<br>Stand Out</h2>
-                            </div>
-                            <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=EsZ6-UHTk10" title="Intro Video">
-                                <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
-                            </a>
+            </div>
+        </div>
+        <!-- End Swiper Wrapper -->
+
+        <!-- Arrows -->
+        <a href="javascript:void(0);"
+            class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
+        <a href="javascript:void(0);"
+            class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
+        <!-- End Arrows -->
+
+        <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
+            <span class="g-font-size-18--xs g-color--white ti-angle-double-down"></span>
+            <p class="text-uppercase g-color--white g-letter-spacing--3 g-margin-b-0--xs">Learn More</p>
+        </a>
+    </div>
+    <!--========== END SWIPER SLIDER ==========-->
+
+    <!--========== PAGE CONTENT ==========-->
+    <!-- Features -->
+    <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--sm">
+        <div class="g-text-center--xs g-margin-b-100--xs">
+            <!-- <p style="font-weight: bolder;"
+                class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">
+                Welcome</p> -->
+            <div class="center">
+                <div class="outer button" style="margin-bottom: 3cm;">
+                    <button>Welcome</button>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+            <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;"
+                class="g-font-size-32--xs g-font-size-36--md">We Create Beautiful Animations <br> That Drive Successful
+                Businesses.</h2>
+        </div>
+
+        <div class="row g-margin-b-60--xs g-margin-b-70--md">
+            <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+                <div class="clearfix">
+                    <div class="g-media g-width-30--xs">
+                        <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".1s">
+                            <i class="g-font-size-28--xs g-color--primary ti-desktop"></i>
                         </div>
+                    </div>
+                    <div class="g-media__body g-padding-x-20--xs">
+                        <h3 class="g-font-size-18--xs">Perfect Picture</h3>
+                        <p class="g-margin-b-0--xs">This is where we sit down, grab a cup of coffee and dial in the
+                            details.</p>
                     </div>
                 </div>
             </div>
-            <!-- End Swiper Wrapper -->
+            <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+                <div class="clearfix">
+                    <div class="g-media g-width-30--xs">
+                        <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".2s">
+                            <i class="g-font-size-28--xs g-color--primary ti-settings"></i>
+                        </div>
+                    </div>
+                    <div class="g-media__body g-padding-x-20--xs">
+                        <h3 class="g-font-size-18--xs">Fully Customizable Videos</h3>
+                        <p class="g-margin-b-0--xs">Relax and take a look.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="clearfix">
+                    <div class="g-media g-width-30--xs">
+                        <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".3s">
+                            <i class="g-font-size-28--xs g-color--primary ti-ruler-alt-2"></i>
+                        </div>
+                    </div>
+                    <div class="g-media__body g-padding-x-20--xs">
+                        <h3 class="g-font-size-18--xs">Pixel Perfect</h3>
+                        <p class="g-margin-b-0--xs">If only I could look up and touch a tetromino-filled sky... Until
+                            then, I thankfully have Dream of Pixels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // end row  -->
+        <div class="row">
+            <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+                <div class="clearfix">
+                    <div class="g-media g-width-30--xs">
+                        <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".4s">
+                            <i class="g-font-size-28--xs g-color--primary ti-package"></i>
+                        </div>
+                    </div>
+                    <div class="g-media__body g-padding-x-20--xs">
+                        <h3 class="g-font-size-18--xs">Endless Possibilities</h3>
+                        <p class="g-margin-b-0--xs">But there was something about you that made me think of sparks and
+                            motion.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+                <div class="clearfix">
+                    <div class="g-media g-width-30--xs">
+                        <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".5s">
+                            <i class="g-font-size-28--xs g-color--primary ti-star"></i>
+                        </div>
+                    </div>
+                    <div class="g-media__body g-padding-x-20--xs">
+                        <h3 class="g-font-size-18--xs">Powerful Creativity</h3>
+                        <p class="g-margin-b-0--xs">Creativity doesn't wait for that perfect moment ,it comes with the
+                            flow.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="clearfix">
+                    <div class="g-media g-width-30--xs">
+                        <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".6s">
+                            <i class="g-font-size-28--xs g-color--primary ti-panel"></i>
+                        </div>
+                    </div>
+                    <div class="g-media__body g-padding-x-20--xs">
+                        <h3 class="g-font-size-18--xs">Custom Support</h3>
+                        <p class="g-margin-b-0--xs">Be strong, be fearless, be beautiful,be bold,be responsible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // end row  -->
+    </div>
+    <!-- End Features -->
 
-            <!-- Arrows -->
-            <a href="javascript:void(0);" class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
-            <a href="javascript:void(0);" class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
-            <!-- End Arrows -->
-            
-            <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
-                <span class="g-font-size-18--xs g-color--white ti-angle-double-down"></span>
-                <p class="text-uppercase g-color--white g-letter-spacing--3 g-margin-b-0--xs">Learn More</p>
+    <!-- Parallax -->
+    <div class="js__parallax-window" style="background: url(img/1920x1080/03.jpg) 50% 0 no-repeat fixed;">
+        <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
+            <div class="g-margin-b-80--xs">
+                <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">Its Your Imagination
+                    !!</h2>
+            </div>
+            <a href="#" title="Learn more" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">Learn
+                More</a>
+        </div>
+    </div>
+    <!-- End Parallax -->
+
+
+
+    <!-- Portfolio Filter -->
+    <div class="container g-padding-y-80--xs">
+        <div class="g-text-center--xs g-margin-b-40--xs">
+            <h2 class="g-font-size-32--xs g-font-size-36--md">Projects</h2>
+        </div>
+        <div class="s-portfolio">
+            <div id="js__filters-portfolio-gallery"
+                class="s-portfolio__filter-v1 cbp-l-filters-text cbp-l-filters-center">
+                <div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active cbp-filter-item-size">Show All
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Portfolio Filter -->
+
+    <!-- Portfolio Gallery -->
+    <div class="container g-margin-b-100--xs">
+        <div id="js__grid-portfolio-gallery" class="cbp">
+            <!-- Item -->
+            <div class="s-portfolio__item cbp-item logos motion">
+                <div class="s-portfolio__img-effect">
+                    <img src="img/970x647/05.jpeg" alt="Portfolio Image">
+                </div>
+                <div class="s-portfolio__caption-hover--cc">
+                    <div class="g-margin-b-25--xs">
+                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                        <p class="g-color--white-opacity">by Manish Shah.</p>
+                    </div>
+                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                        <li>
+                            <a href="img/970x647/05.jpeg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item by Manish Shah.">
+                                <i class="ti-fullscreen"></i>
+                            </a>
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Item -->
+            <div class="s-portfolio__item cbp-item graphic">
+                <div class="s-portfolio__img-effect">
+                    <img src="img/970x647/06.jpeg" alt="Portfolio Image">
+                </div>
+                <div class="s-portfolio__caption-hover--cc">
+                    <div class="g-margin-b-25--xs">
+                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                        <p class="g-color--white-opacity">by Manish Shah.</p>
+                    </div>
+                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                        <li>
+                            <a href="img/970x647/06.jpeg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
+                                <i class="ti-fullscreen"></i>
+                            </a>
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Item -->
+            <div class="s-portfolio__item cbp-item graphic">
+                <div class="s-portfolio__img-effect">
+                    <img src="img/970x647/07.jpeg" alt="Portfolio Image">
+                </div>
+                <div class="s-portfolio__caption-hover--cc">
+                    <div class="g-margin-b-25--xs">
+                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                        <p class="g-color--white-opacity">by Manish Shah.</p>
+                    </div>
+                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                        <li>
+                            <a href="img/970x647/07.jpeg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
+                                <i class="ti-fullscreen"></i>
+                            </a>
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Item -->
+            <div class="s-portfolio__item cbp-item motion graphic">
+                <div class="s-portfolio__img-effect">
+                    <img src="img/970x647/08.jpeg" alt="Portfolio Image">
+                </div>
+                <div class="s-portfolio__caption-hover--cc">
+                    <div class="g-margin-b-25--xs">
+                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                        <p class="g-color--white-opacity">by Manish Shah.</p>
+                    </div>
+                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                        <li>
+                            <a href="img/970x647/08.jpeg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
+                                <i class="ti-fullscreen"></i>
+                            </a>
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Item -->
+            <div class="s-portfolio__item cbp-item logos graphic">
+                <div class="s-portfolio__img-effect">
+                    <img src="img/970x647/09.jpeg" alt="Portfolio Image">
+                </div>
+                <div class="s-portfolio__caption-hover--cc">
+                    <div class="g-margin-b-25--xs">
+                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                        <p class="g-color--white-opacity">by Manish Shah.</p>
+                    </div>
+                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                        <li>
+                            <a href="img/970x647/09.jpeg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
+                                <i class="ti-fullscreen"></i>
+                            </a>
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Item -->
+            <div class="s-portfolio__item cbp-item logos graphic">
+                <div class="s-portfolio__img-effect">
+                    <img src="img/970x647/15.jpg" alt="Portfolio Image">
+                </div>
+                <div class="s-portfolio__caption-hover--cc">
+                    <div class="g-margin-b-25--xs">
+                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                        <p class="g-color--white-opacity">by Manish Shah.</p>
+                    </div>
+                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                        <li>
+                            <a href="img/970x647/15.jpg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
+                                <i class="ti-fullscreen"></i>
+                            </a>
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Item -->
+            <div class="s-portfolio__item cbp-item logos graphic">
+                <div class="s-portfolio__img-effect">
+                    <img src="img/970x647/16.jpg" alt="Portfolio Image">
+                </div>
+                <div class="s-portfolio__caption-hover--cc">
+                    <div class="g-margin-b-25--xs">
+                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                        <p class="g-color--white-opacity">by Manish Shah.</p>
+                    </div>
+                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                        <li>
+                            <a href="img/970x647/16.jpg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
+                                <i class="ti-fullscreen"></i>
+                            </a>
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Item -->
+            <div class="s-portfolio__item cbp-item motion graphic">
+                <div class="s-portfolio__img-effect">
+                    <img src="img/970x647/04.jpeg" alt="Portfolio Image">
+                </div>
+                <div class="s-portfolio__caption-hover--cc">
+                    <div class="g-margin-b-25--xs">
+                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                        <p class="g-color--white-opacity">by Manish Shah.</p>
+                    </div>
+                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                        <li>
+                            <a href="img/970x647/04.jpeg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
+                                <i class="ti-fullscreen"></i>
+                            </a>
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Item -->
+        </div>
+        <!-- End Portfolio Gallery -->
+    </div>
+    <!-- End Portfolio -->
+
+
+    <!--========== FOOTER ==========-->
+    <footer class="g-bg-color--dark">
+        <!-- Links -->
+
+        <!-- Copyright -->
+        <div class="container g-padding-y-50--xs">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <a href="#">
+                        <p  class="owner-of-website"
+                        style="size: 20px; color: #179397;">Manish Shah</p>
+                        <hr width="25%" align="left">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
+                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light" style="size: 20px;"><a
+                            href="#">The</a> best <a href="#">animation.</a></p>
+                </div>
+
+
+                <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
+                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="#">The </a>real
+                        Magic <a href="#">which make your Imagination real</a></p>
+
+                </div>
+
+                <p>
+                <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
+                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">Reach out to me at <a
+                            href="#">LinkedIn</a></p>
+
+                </div>
+            </div>
+        </div>
+        <div class="stickyicon-list">
+            <a href="#" class="facebook">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#" class="twitter">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#" class="linkedin">
+                <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="#" class="google">
+                <i class="fa fa-google"></i>
+            </a>
+            <a href="https://www.instagram.com/manish.ah_/" class="instagram">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCqAIvSCWDWS-XqLhpacTCyg" class="youtube">
+                <i class="fa fa-youtube"></i>
             </a>
         </div>
-        <!--========== END SWIPER SLIDER ==========-->
+        <!-- End Copyright -->
+    </footer>
+    <!--========== END FOOTER ==========-->
 
-        <!--========== PAGE CONTENT ==========-->
-        <!-- Features -->
-        <div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--sm">
-            <div class="g-text-center--xs g-margin-b-100--xs">
-                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Welcome</p>
-                <h2 style="font-family:'Times New Roman', Times, serif;"" class="g-font-size-32--xs g-font-size-36--md">We Create Beautiful Animations <br> That Drive Successful Businesses.</h2>
-            </div>
-            <div class="row g-margin-b-60--xs g-margin-b-70--md">
-                <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
-                    <div class="clearfix">
-                        <div class="g-media g-width-30--xs">
-                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".1s">
-                                <i class="g-font-size-28--xs g-color--primary ti-desktop"></i>
-                            </div>
-                        </div>
-                        <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">Perfect Picture</h3>
-                            <p class="g-margin-b-0--xs">This is where we sit down, grab a cup of coffee and dial in the details.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
-                    <div class="clearfix">
-                        <div class="g-media g-width-30--xs">
-                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".2s">
-                                <i class="g-font-size-28--xs g-color--primary ti-settings"></i>
-                            </div>
-                        </div>
-                        <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">Fully Customizable Videos</h3>
-                            <p class="g-margin-b-0--xs">Relax and take a look.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="clearfix">
-                        <div class="g-media g-width-30--xs">
-                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".3s">
-                                <i class="g-font-size-28--xs g-color--primary ti-ruler-alt-2"></i>
-                            </div>
-                        </div>
-                        <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">Pixel Perfect</h3>
-                            <p class="g-margin-b-0--xs">If only I could look up and touch a tetromino-filled sky... Until then, I thankfully have Dream of Pixels.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- // end row  -->
-            <div class="row">
-                <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
-                    <div class="clearfix">
-                        <div class="g-media g-width-30--xs">
-                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".4s">
-                                <i class="g-font-size-28--xs g-color--primary ti-package"></i>
-                            </div>
-                        </div>
-                        <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">Endless Possibilities</h3>
-                            <p class="g-margin-b-0--xs">But there was something about you that made me think of sparks and motion.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
-                    <div class="clearfix">
-                        <div class="g-media g-width-30--xs">
-                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".5s">
-                                <i class="g-font-size-28--xs g-color--primary ti-star"></i>
-                            </div>
-                        </div>
-                        <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">Powerful Creativity</h3>
-                            <p class="g-margin-b-0--xs">Creativity doesn't wait for that perfect moment.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="clearfix">
-                        <div class="g-media g-width-30--xs">
-                            <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".6s">
-                                <i class="g-font-size-28--xs g-color--primary ti-panel"></i>
-                            </div>
-                        </div>
-                        <div class="g-media__body g-padding-x-20--xs">
-                            <h3 class="g-font-size-18--xs">Custom Support</h3>
-                            <p class="g-margin-b-0--xs">Be strong, be fearless, be beautiful.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- // end row  -->
-        </div>
-        <!-- End Features -->
+    <!-- Back To Top -->
+    <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
 
-        <!-- Parallax -->
-        <div class="js__parallax-window" style="background: url(img/1920x1080/03.jpg) 50% 0 no-repeat fixed;">
-            <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
-                <div class="g-margin-b-80--xs">
-                    <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">Its Your Imagination</h2>
-                </div>
-                <a href="#" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">Learn More</a>
-            </div>
-        </div>
-        <!-- End Parallax -->
+    <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+    <!-- Vendor -->
+    <script type="text/javascript" src="vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.back-to-top.min.js"></script>
+    <script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script>
+    <script type="text/javascript" src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="vendor/swiper/swiper.jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/waypoint.min.js"></script>
+    <script type="text/javascript" src="vendor/counterup.min.js"></script>
+    <script type="text/javascript" src="vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.parallax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
+    <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
 
-       
+    <!-- General Components and Settings -->
+    <script type="text/javascript" src="js/global.js"></script>
+    <script type="text/javascript" src="js/global.min.js"></script>
+    <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
+    <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
+    <script type="text/javascript" src="js/components/magnific-popup.min.js"></script>
+    <script type="text/javascript" src="js/components/swiper.min.js"></script>
+    <script type="text/javascript" src="js/components/counter.min.js"></script>
+    <script type="text/javascript" src="js/components/portfolio-3-col.min.js"></script>
+    <script type="text/javascript" src="js/components/parallax.min.js"></script>
+    <script type="text/javascript" src="js/components/google-map.min.js"></script>
+    <script type="text/javascript" src="js/components/wow.min.js"></script>
+    <!--========== END JAVASCRIPTS ==========-->
 
-        <!-- Portfolio Filter -->
-        <div class="container g-padding-y-80--xs">
-            <div class="g-text-center--xs g-margin-b-40--xs">
-                <h2 class="g-font-size-32--xs g-font-size-36--md">Projects</h2>
-            </div>
-            <div class="s-portfolio">
-                <div id="js__filters-portfolio-gallery" class="s-portfolio__filter-v1 cbp-l-filters-text cbp-l-filters-center">
-                    <div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">Show All</div>
-                    
-                </div>
-            </div>
-        </div>
-        <!-- End Portfolio Filter -->
+</body>
+<!-- End Body -->
 
-        <!-- Portfolio Gallery -->
-        <div class="container g-margin-b-100--xs">
-            <div id="js__grid-portfolio-gallery" class="cbp">
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item logos motion">
-                    <div class="s-portfolio__img-effect">
-                        <img src="img/970x647/05.jpeg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                            <p class="g-color--white-opacity">by Manish Shah.</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="img/970x647/05.jpeg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                            <li>
-                                
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item graphic">
-                    <div class="s-portfolio__img-effect">
-                        <img src="img/970x647/06.jpeg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                            <p class="g-color--white-opacity">by Manish Shah.</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="img/970x647/06.jpeg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                            <li>
-                                
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Item -->
-                 <div class="s-portfolio__item cbp-item graphic">
-                    <div class="s-portfolio__img-effect">
-                        <img src="img/970x647/07.jpeg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                            <p class="g-color--white-opacity">by Manish Shah.</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="img/970x647/07.jpeg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                            <li>
-                                
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item motion graphic">
-                    <div class="s-portfolio__img-effect">
-                        <img src="img/970x647/08.jpeg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                            <p class="g-color--white-opacity">by Manish Shah.</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="img/970x647/08.jpeg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                            <li>
-                               
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item logos graphic">
-                    <div class="s-portfolio__img-effect">
-                        <img src="img/970x647/09.jpeg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                            <p class="g-color--white-opacity">by Manish Shah.</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="img/970x647/09.jpeg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                            <li>
-                                
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Item -->
-                <div class="s-portfolio__item cbp-item motion graphic">
-                    <div class="s-portfolio__img-effect">
-                        <img src="img/970x647/04.jpeg" alt="Portfolio Image">
-                    </div>
-                    <div class="s-portfolio__caption-hover--cc">
-                        <div class="g-margin-b-25--xs">
-                            <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                            <p class="g-color--white-opacity">by Manish Shah.</p>
-                        </div>
-                        <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                            <li>
-                                <a href="img/970x647/04.jpeg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                            </li>
-                            <li>
-                                
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- End Item -->
-            </div>
-            <!-- End Portfolio Gallery -->
-        </div>
-        <!-- End Portfolio -->
-
-       
-        <!--========== FOOTER ==========-->
-        <footer class="g-bg-color--dark">
-            <!-- Links -->
-            
-            <!-- Copyright -->
-            <div class="container g-padding-y-50--xs">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-xs-12">
-                        <a href="#">
-                           Manish Shah
-                        </a>
-                    </div>
-                    
-                    <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="#">The</a> best  <a href="#">animation.</a></p>
-                    </div>
- 
-                 
-                    <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="#">The </a>real Magic <a href="#">which make your Imagination real</a></p>  
-
-                    </div>
-                </div>
-            </div>
-            <!-- End Copyright -->
-        </footer>
-        <!--========== END FOOTER ==========-->
-
-        <!-- Back To Top -->
-        <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
-
-        <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
-        <!-- Vendor -->
-        <script type="text/javascript" src="vendor/jquery.min.js"></script>
-        <script type="text/javascript" src="vendor/jquery.migrate.min.js"></script>
-        <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="vendor/jquery.smooth-scroll.min.js"></script>
-        <script type="text/javascript" src="vendor/jquery.back-to-top.min.js"></script>
-        <script type="text/javascript" src="vendor/scrollbar/jquery.scrollbar.min.js"></script>
-        <script type="text/javascript" src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-        <script type="text/javascript" src="vendor/swiper/swiper.jquery.min.js"></script>
-        <script type="text/javascript" src="vendor/waypoint.min.js"></script>
-        <script type="text/javascript" src="vendor/counterup.min.js"></script>
-        <script type="text/javascript" src="vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-        <script type="text/javascript" src="vendor/jquery.parallax.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
-        <script type="text/javascript" src="vendor/jquery.wow.min.js"></script>
-
-        <!-- General Components and Settings -->
-        <script type="text/javascript" src="js/global.min.js"></script>
-        <script type="text/javascript" src="js/components/header-sticky.min.js"></script>
-        <script type="text/javascript" src="js/components/scrollbar.min.js"></script>
-        <script type="text/javascript" src="js/components/magnific-popup.min.js"></script>
-        <script type="text/javascript" src="js/components/swiper.min.js"></script>
-        <script type="text/javascript" src="js/components/counter.min.js"></script>
-        <script type="text/javascript" src="js/components/portfolio-3-col.min.js"></script>
-        <script type="text/javascript" src="js/components/parallax.min.js"></script>
-        <script type="text/javascript" src="js/components/google-map.min.js"></script>
-        <script type="text/javascript" src="js/components/wow.min.js"></script>
-        <!--========== END JAVASCRIPTS ==========-->
-
-    </body>
-    <!-- End Body -->
 </html>
