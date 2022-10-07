@@ -92,9 +92,9 @@
 
 html {
   font-family: sans-serif;
-  line-height: 1.15;
+  line-height: 2.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgb(16, 16, 16);
+  -webkit-tap-highlight-color: rgb(18, 11, 14);
 }
 
 /* article,
@@ -594,18 +594,18 @@ mark,
 }
 
 .initialism {
-  font-size: 90%;
+  font-size: 80%;
   text-transform: uppercase;
 }
 
 .blockquote {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-size: 1.25rem;
 }
 
 .blockquote-footer {
   display: block;
-  font-size: 80%;
+  font-size: 70%;
   color: #6c757d;
 }
 .blockquote-footer::before {
