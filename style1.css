@@ -127,7 +127,7 @@ header{
 }
 
 .navbar-nav .nav-item .fa{
-    margin-left: 2px;
+    margin-left: 3px;
 }
 
 .heading-section{
@@ -171,8 +171,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2rem;
-  font-weight: 450;
+  font-size: 3rem;
+  font-weight: 440;
   line-height: 1.5;
   /* color: rgb(112, 144, 115); */
   text-align: left;
@@ -225,7 +225,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 ol ol,
