@@ -70,7 +70,7 @@
   --light: #f8f9fa;
   --dark: #343a40;
   --breakpoint-xs: 0;
-  --breakpoint-sm: 575px;
+  --breakpoint-sm: 572px;
   --breakpoint-md: 769px;
   --breakpoint-lg: 993px;
   --breakpoint-xl: 1201px;
@@ -94,7 +94,7 @@ html {
   font-family: sans-serif;
   line-height: 2.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgb(18, 11, 14);
+  -webkit-tap-highlight-color: rgb(12, 13, 11);
 }
 
 /* article,
@@ -159,7 +159,7 @@ header{
 }
 
 element .style{
-    font-size: 40px;
+    font-size: 44px;
 }
 
 .logo{
@@ -260,7 +260,7 @@ small {
 sub,
 sup {
   /* position: relative; */
-  font-size: 80%;
+  font-size: 85%;
   line-height: 0;
   vertical-align: baseline;
 }
@@ -308,7 +308,7 @@ samp {
 
 pre {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
   overflow: auto;
 }
 
@@ -426,7 +426,7 @@ fieldset {
   min-width: 0;
   padding: 0;
   margin: 0;
-  border: 0;
+  border: 3;
 }
 
 legend {
@@ -546,7 +546,7 @@ h6,
 }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 5i have .5rem;
   font-weight: 300;
   line-height: 1.2;
 }
