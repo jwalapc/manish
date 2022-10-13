@@ -94,7 +94,7 @@ html {
   font-family: sans-serif;
   line-height: 2.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgb(12, 13, 11);
+  -webkit-tap-highlight-color: rgb(14, 13, 11);
 }
 
 /* article,
@@ -122,7 +122,7 @@ header{
 }
 
 .navbar-nav .nav-item{
-    margin-left: 20px;
+    margin-left: 50px;
     font-size: 18px;
 }
 
@@ -137,7 +137,7 @@ header{
     #231557 0%,
     #44107a 29%,
     #ff1361 67%,
-    #fff800 100%
+    #fff800 500%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -308,7 +308,7 @@ samp {
 
 pre {
   margin-top: 0;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
   overflow: auto;
 }
 
@@ -344,7 +344,7 @@ th {
 
 label {
   display: inline-block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 button {
