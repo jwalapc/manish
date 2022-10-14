@@ -172,8 +172,8 @@ body {
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 3rem;
-  font-weight: 440;
-  line-height: 1.5;
+  font-weight: 40;
+  line-height: 4.5;
   /* color: rgb(112, 144, 115); */
   text-align: left;
   background-color: rgb(46, 4, 25);
@@ -196,7 +196,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 10;
+  margin-top: 60;
   margin-bottom: 0.6rem;
 }
 
@@ -236,7 +236,7 @@ ul ol {
 }
 
 dt {
-  font-weight: 750;
+  font-weight: 250;
 }
 
 dd {
@@ -254,7 +254,7 @@ strong {
 }
 
 small {
-  font-size: 90%;
+  font-size: 28%;
 }
 
 sub,
@@ -331,7 +331,7 @@ table {
 }
 
 caption {
-  padding-top: 0.75rem;
+  padding-top: 0.25rem;
   padding-bottom: 0.75rem;
   color: #6c757d;
   text-align: left;
