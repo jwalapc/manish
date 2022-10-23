@@ -9,57 +9,85 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=PT+Sans&display=swap" rel="stylesheet">
     <style>
         /* Style the Sticky icons on web page */
-        
+
         .stickyicon-list {
             position: fixed;
-            top: 200px;
+            top: 50%;
             transform: translateY(-50%);
         }
-        
+
         .stickyicon-list a {
             display: block;
             text-align: center;
-            padding: 4px;
+            padding: 3px 7px;
             transition: all 0.3s ease;
             color: white;
             font-size: 25px;
         }
+
         /* HOver affect on sticky social media icons */
-        
+
         .stickyicon-list a:hover {
-            color: #000;
-            width: 17px;
+            background: transparent;
+            /* text-shadow: 0.2px 0.2px 1px white; */
+            /* color: #000; */
+            /* width: 17px; */
         }
+
         /* Now we have to design each icon of social media */
-        
+
         .facebook {
             background: #3b5998;
             color: white;
         }
-        
+
+        .facebook:hover {
+            color: #3b5998;
+        }
+
         .twitter {
             color: white;
             background: #00acee;
         }
-        
+
+        .twitter:hover {
+            color: #00acee;
+        }
+
         .linkedin {
             background: #0e76a8;
             color: white;
         }
-        
+
+        .linkedin:hover {
+            color: #0e76a8;
+        }
+
         .google {
             color: white;
             background: #db4a39;
         }
-        
+
+        .google:hover {
+            color: #db4a39;
+        }
+
         .instagram {
             background: #b4035c;
             color: white;
         }
-        
+
+        .instagram:hover {
+            color: #b4035c;
+        }
+
         .youtube {
             color: white;
             background: #c4302b;
+        }
+
+        .youtube:hover {
+            color: #c4302b;
         }
     </style>
     <!-- Basic -->
@@ -105,7 +133,7 @@
                         <div class="s-header__logo">
                             <a href="https://www.instagram.com/manish.ah_/" class="s-header__logo-link">
                                 <b>
-                                    <p 
+                                    <p
                                         style="size: 20px; color: #41bcc5; font-family:Georgia, 'Times New Roman', Times, serif;">
                                         Manish Shah</p>
                                 </b>
@@ -139,10 +167,16 @@
 
                     <!-- Menu List -->
                     <ul class="list-unstyled s-header__nav-menu">
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index.html">Home</a></li>
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="https://www.instagram.com/manish.ah_/">About</a></li>
+                        <li class="s-header__nav-menu-item"><a
+                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                                href="index.html">Home</a></li>
+                        <li class="s-header__nav-menu-item"><a
+                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                                href="https://www.instagram.com/manish.ah_/">About</a></li>
 
-                        <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contact.html">Contacts</a></li>
+                        <li class="s-header__nav-menu-item"><a
+                                class="s-header__nav-menu-link s-header__nav-menu-link-divider"
+                                href="contact.html">Contacts</a></li>
 
                     </ul>
                     <!-- End Menu List -->
@@ -171,26 +205,33 @@
     <div class="s-swiper js__swiper-one-item">
         <!-- Swiper Wrapper -->
         <div class="swiper-wrapper">
-            <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/1920x1080/02.jpg');">
+            <div class="g-fullheight--xs g-bg-position--center swiper-slide"
+                style="background: url('img/1920x1080/02.jpg');">
                 <div class="container g-text-center--xs g-ver-center--xs">
                     <div class="g-margin-b-30--xs">
                         <h1 style="font-family: 'Lato', sans-serif;
-                        font-family: 'PT Sans', sans-serif;" class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Animation is your Imagination.</h1>
+                        font-family: 'PT Sans', sans-serif;"
+                            class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">Animation is
+                            your Imagination.</h1>
                     </div>
                     <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=EsZ6-UHTk10" title=" Video">
                         <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
                     </a>
                 </div>
             </div>
-            <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('img/1920x1080/01.jpg');">
+            <div class="g-fullheight--xs g-bg-position--center swiper-slide"
+                style="background: url('img/1920x1080/01.jpg');">
                 <div class="container g-text-center--xs g-ver-center--xs">
                     <div class="g-margin-b-30--xs">
                         <div class="g-margin-b-30--xs">
                             <h2 style="font-family: 'Lato', sans-serif;
-                            font-family: 'PT Sans', sans-serif;" class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">We Craft An Experience That Helps Brands<br>Stand Out</h2>
+                            font-family: 'PT Sans', sans-serif;"
+                                class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">We Craft
+                                An Experience That Helps Brands<br>Stand Out</h2>
                         </div>
                         <br>
-                        <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=EsZ6-UHTk10" title="Intro Video">
+                        <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=EsZ6-UHTk10"
+                            title="Intro Video">
                             <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
                         </a>
                     </div>
@@ -200,8 +241,10 @@
         <!-- End Swiper Wrapper -->
 
         <!-- Arrows -->
-        <a href="javascript:void(0);" class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
-        <a href="javascript:void(0);" class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
+        <a href="javascript:void(0);"
+            class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
+        <a href="javascript:void(0);"
+            class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
         <!-- End Arrows -->
 
         <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
@@ -221,11 +264,12 @@
             <div class="center">
                 <div class="outer button" style="margin-bottom: 3cm;">
                     <button>Welcome</button>
-                   
+
                 </div>
 
             </div>
-            <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;" class="g-font-size-36--xs">We Create Beautiful Animations <br> That Drive Successful Businesses.
+            <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;"
+                class="g-font-size-36--xs">We Create Beautiful Animations <br> That Drive Successful Businesses.
             </h2>
         </div>
 
@@ -239,7 +283,8 @@
                     </div>
                     <div class="g-media__body g-padding-x-20--xs">
                         <h3 class="g-font-size-18--xs">Perfect Picture</h3>
-                        <p class="g-margin-b-0--xs">This is where we sit down, grab a cup of coffee and dial in the details.
+                        <p class="g-margin-b-0--xs">This is where we sit down, grab a cup of coffee and dial in the
+                            details.
                         </p>
                     </div>
                 </div>
@@ -266,7 +311,8 @@
                     </div>
                     <div class="g-media__body g-padding-x-20--xs">
                         <h3 class="g-font-size-18--xs">Pixel Perfect</h3>
-                        <p class="g-margin-b-0--xs">If only I could look up and touch a tetromino-filled sky... Until then, I thankfully have Dream of Pixels.</p>
+                        <p class="g-margin-b-0--xs">If only I could look up and touch a tetromino-filled sky... Until
+                            then, I thankfully have Dream of Pixels.</p>
                     </div>
                 </div>
             </div>
@@ -282,7 +328,8 @@
                     </div>
                     <div class="g-media__body g-padding-x-20--xs">
                         <h3 class="g-font-size-18--xs">Endless Possibilities</h3>
-                        <p class="g-margin-b-0--xs">But there was something about you that made me think of sparks and motion.
+                        <p class="g-margin-b-0--xs">But there was something about you that made me think of sparks and
+                            motion.
                         </p>
                     </div>
                 </div>
@@ -296,7 +343,8 @@
                     </div>
                     <div class="g-media__body g-padding-x-20--xs">
                         <h3 class="g-font-size-18--xs">Powerful Creativity</h3>
-                        <p class="g-margin-b-0--xs">Creativity doesn't wait for that perfect moment ,it comes with the flow.
+                        <p class="g-margin-b-0--xs">Creativity doesn't wait for that perfect moment ,it comes with the
+                            flow.
                         </p>
                     </div>
                 </div>
@@ -323,7 +371,8 @@
     <div class="js__parallax-window" style="background: url(img/1920x1080/03.jpg) 50% 0 no-repeat fixed;">
         <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
             <div class="g-margin-b-80--xs">
-                <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">Its Your Imagination !!
+                <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">Its Your Imagination
+                    !!
                 </h2>
             </div>
             <a href="#" title="Learn more" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">Learn
@@ -340,8 +389,11 @@
             <h2 class="g-font-size-32--xs g-font-size-36--md">Projects</h2>
         </div>
         <div class="s-portfolio">
-            <div id="js__filters-portfolio-gallery" class="s-portfolio__filter-v1 cbp-l-filters-text cbp-l-filters-center">
-                <div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active cbp-filter-item-size">Show All
+            <div id="js__filters-portfolio-gallery"
+                class="s-portfolio__filter-v1 cbp-l-filters-text cbp-l-filters-center">
+                <div data-filter="*"
+                    class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active cbp-filter-item-size">Show
+                    All
                 </div>
 
             </div>
@@ -364,7 +416,9 @@
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
-                            <a href="img/970x647/05.jpeg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item by Manish Shah.">
+                            <a href="img/970x647/05.jpeg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item by Manish Shah.">
                                 <i class="ti-fullscreen"></i>
                             </a>
                         </li>
@@ -386,7 +440,9 @@
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
-                            <a href="img/970x647/06.jpeg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
+                            <a href="img/970x647/06.jpeg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
                                 <i class="ti-fullscreen"></i>
                             </a>
                         </li>
@@ -408,7 +464,9 @@
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
-                            <a href="img/970x647/07.jpeg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
+                            <a href="img/970x647/07.jpeg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
                                 <i class="ti-fullscreen"></i>
                             </a>
                         </li>
@@ -430,7 +488,9 @@
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
-                            <a href="img/970x647/08.jpeg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
+                            <a href="img/970x647/08.jpeg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
                                 <i class="ti-fullscreen"></i>
                             </a>
                         </li>
@@ -452,7 +512,9 @@
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
-                            <a href="img/970x647/09.jpeg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
+                            <a href="img/970x647/09.jpeg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
                                 <i class="ti-fullscreen"></i>
                             </a>
                         </li>
@@ -474,7 +536,9 @@
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
-                            <a href="img/970x647/15.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
+                            <a href="img/970x647/15.jpg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
                                 <i class="ti-fullscreen"></i>
                             </a>
                         </li>
@@ -496,7 +560,9 @@
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
-                            <a href="img/970x647/16.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
+                            <a href="img/970x647/16.jpg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
                                 <i class="ti-fullscreen"></i>
                             </a>
                         </li>
@@ -518,7 +584,9 @@
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
-                            <a href="img/970x647/04.jpeg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
+                            <a href="img/970x647/04.jpeg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
                                 <i class="ti-fullscreen"></i>
                             </a>
                         </li>
@@ -540,7 +608,9 @@
                     </div>
                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                         <li>
-                            <a href="img/970x647/globe.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by Manish Shah.">
+                            <a href="img/970x647/globe.jpg"
+                                class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle"
+                                data-title="Portfolio Item <br/> by Manish Shah.">
                                 <i class="ti-fullscreen"></i>
                             </a>
                         </li>
@@ -572,20 +642,23 @@
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
-                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light" style="size: 20px;"><a href="#">The</a> best <a href="#">animation.</a></p>
+                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light" style="size: 20px;"><a
+                            href="#">The</a> best <a href="#">animation.</a></p>
                 </div>
 
 
                 <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
-                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="#">The </a>real Magic <a href="#">which make your Imagination real</a></p>
+                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light"><a href="#">The </a>real
+                        Magic <a href="#">which make your Imagination real</a></p>
 
                 </div>
 
                 <p>
-                    <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
-                        <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">Reach out to me at <a href="#">LinkedIn</a></p>
+                <div class="col-lg-4 col-md-4 col-xs-12 g-text-left--xs">
+                    <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">Reach out to me at <a
+                            href="#">LinkedIn</a></p>
 
-                    </div>
+                </div>
             </div>
         </div>
         <div class="stickyicon-list">
