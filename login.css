@@ -1,0 +1,80 @@
+.background{
+
+    /* background-size: 50%; */
+    color: black;
+    font-size: 46px;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    /* align-items:center; */
+    justify-content: center;
+    background-color: #b1bfd8;
+    background-image: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+
+    height:auto;
+    width:900px;
+    position: relative;
+    top:330px;
+    z-index: 2;
+    left:2.9rem;    
+    margin: auto;;
+
+}
+body{
+    margin: 0;
+    padding-right: 5rem;
+    background-color: #d6e4f0;
+    color: black;
+    height: 100%;
+    width: 100%;
+    font-family: 'KoHo', sans-serif;
+
+
+}
+.style{
+    text-align: center;
+    position: relative;
+    bottom: 12rem ;
+
+    /* text-justify: inter-word; */
+}
+input{
+    height: 44px;
+    border-radius: 10px;
+}
+select{
+    height: 44px;
+    font-size: 10px;
+}
+input::placeholder{
+    font-size: 25px;
+}
+.textcenter{
+    text-align: justify;
+    }
+.square{
+      width:56.25rem;                                                         
+      height:19.75rem;
+      background-image: url(./Images/form.jpg);
+      position: relative;
+      bottom:14.5rem;
+      /* align:center; */
+      margin:  auto;
+      z-index: 1;
+    }
+    label{
+      font-size: 30px;
+    }
+    .size{
+        font-size: 1.5rem;
+        display: inline;
+    }
+    .hover:hover{
+        text-decoration: underline;
+        color: darkblue;
+    }
+    .hover{
+        font-size: 1.5rem;
+        display: inline;
+    }
